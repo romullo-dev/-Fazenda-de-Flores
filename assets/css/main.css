@@ -1,11 +1,14 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap');
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -22,7 +25,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+  font-family: 'Poppins', sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -103,7 +106,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: 'Poppins', sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -3400,20 +3403,6 @@ input, select, textarea {
 
 					}
 
-		#menu .close {
-			background-image: url("images/close.svg");
-			background-position: 4.85em 1em;
-			background-repeat: no-repeat;
-			border: 0;
-			cursor: pointer;
-			display: block;
-			height: 3em;
-			position: absolute;
-			right: 0;
-			top: 0;
-			vertical-align: middle;
-			width: 7em;
-		}
 
 		@media screen and (max-width: 736px) {
 
@@ -3440,126 +3429,22 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
-		-moz-transition: background-color 0.2s ease;
-		-webkit-transition: background-color 0.2s ease;
-		-ms-transition: background-color 0.2s ease;
-		transition: background-color 0.2s ease;
-		background: #2e3842;
-		height: 3em;
-		left: 0;
-		line-height: 3em;
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: 10000;
-	}
+#nav_logo{
+  text-align: center;
+  color: #6d4783;
+  font-weight: bolder;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 
-		#header h1 {
-			-moz-transition: opacity 0.2s ease;
-			-webkit-transition: opacity 0.2s ease;
-			-ms-transition: opacity 0.2s ease;
-			transition: opacity 0.2s ease;
-			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			position: absolute;
-			top: 0;
-		}
+}
 
-			#header h1 a {
-				border: 0;
-				display: block;
-				height: inherit;
-				line-height: inherit;
-			}
 
-				@media screen and (max-width: 736px) {
 
-					#header h1 a {
-						font-size: 0.8em;
-					}
 
-				}
 
-		#header nav {
-			height: inherit;
-			line-height: inherit;
-			position: absolute;
-			right: 0;
-			top: 0;
-		}
-
-			#header nav > ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-				white-space: nowrap;
-			}
-
-				#header nav > ul > li {
-					display: inline-block;
-					padding: 0;
-				}
-
-					#header nav > ul > li > a {
-						border: 0;
-						color: #fff;
-						display: block;
-						font-size: 0.8em;
-						letter-spacing: 0.225em;
-						padding: 0 1.5em;
-						text-transform: uppercase;
-					}
-
-						#header nav > ul > li > a.menuToggle {
-							outline: 0;
-							position: relative;
-						}
-
-							#header nav > ul > li > a.menuToggle:after {
-								background-image: url("images/bars.svg");
-								background-position: right center;
-								background-repeat: no-repeat;
-								content: '';
-								display: inline-block;
-								height: 3.75em;
-								vertical-align: top;
-								width: 2em;
-							}
-
-							@media screen and (max-width: 736px) {
-
-								#header nav > ul > li > a.menuToggle {
-									padding: 0 1.5em;
-								}
-
-									#header nav > ul > li > a.menuToggle span {
-										display: none;
-									}
-
-							}
-
-						@media screen and (max-width: 736px) {
-
-							#header nav > ul > li > a {
-								padding: 0 0 0 1.5em;
-							}
-
-						}
-
-					#header nav > ul > li:first-child {
-						margin-left: 0;
-					}
-
-		#header.alt {
-			background: transparent;
-		}
-
-			#header.alt h1 {
-				pointer-events: none;
-				opacity: 0;
-			}
 
 /* Banner */
 
@@ -3582,9 +3467,14 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+    background-color: #B4B6E8;
 	}
 
 		#banner h2 {
+      color: #49663b;
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 300;
+      font-style: normal;
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -3594,7 +3484,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 2.90em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
