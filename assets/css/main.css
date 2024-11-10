@@ -3883,7 +3883,18 @@ input, select, textarea {
 		background-color: #330003;
 	}
 
-/*one*/
-#one {
-
+/*Card*/
+#Card {
+  background-color: #f4e1e1;
+  padding-top: 20px;
 }
+#Card h3{
+  text-align: center;
+}
+#Card img {
+  width: 100%;
+  height: 300px;
+}
+
+/*card*/
+
