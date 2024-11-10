@@ -2680,7 +2680,8 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 500px;
+      height: 500px;
 		}
 
 			.spotlight .image img {
@@ -2706,15 +2707,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: #f4e1e1;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: #ffffff;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: #c8c0ee;
 		}
 
 		.spotlight:nth-child(4) {
@@ -3720,12 +3721,6 @@ input, select, textarea {
 			margin: 0 0 0.5em 0;
 		}
 
-		#main > header p {
-			color: inherit;
-			letter-spacing: 0.225em;
-			text-transform: uppercase;
-			top: 0;
-		}
 
 			#main > header p a {
 				color: inherit;
@@ -3885,5 +3880,10 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #330003;
 	}
+
+/*one*/
+#one {
+
+}
