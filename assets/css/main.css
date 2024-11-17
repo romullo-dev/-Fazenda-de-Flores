@@ -675,7 +675,7 @@
 
 /* Links do menu */
 .navbar-nav .nav-link {
-  color: #f4e1e1 !important; /* Cor inicial dos links */
+  color: #fff !important; /* Cor inicial dos links */
   font-weight: bolder;
   transition: color 0.3s ease; /* Transição suave para o hover */
 }
