@@ -273,8 +273,46 @@
 }
 
 
+/*CTA*/
 
+ .inner2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.button {
+  display: inline-block;
+  padding: 5px 7px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+}
+
+.bg-success {
+  background-color: #28a745; /* Cor de fundo verde */
+  color: white;
+
+}
+
+.bg-success:hover {
+  background-color: #218838; /* Cor mais escura quando o botão é hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:active {
+  transform: scale(0.98); /* Efeito de clique */
+}
+
+.actions {
+  list-style: none; /* Remove o ponto */
+  padding: 0;       /* Remove o espaçamento padrão */
+  margin: 0;        /* Remove a margem padrão */
+}
 
 
 /* Banner */
