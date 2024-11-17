@@ -490,11 +490,11 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.5);
+				color: #fff;
 			}
 
 				#footer .icons a:hover {
-					color: #fff;
+					color: #198754;
 				}
 
 		#footer .copyright {
@@ -666,4 +666,26 @@
   text-decoration: underline;
   font-weight: bold;
   background-color: #00ffcc;
+}
+
+
+.navbar {
+  background-color: #6D4783; /* Fundo do navbar */
+}
+
+/* Links do menu */
+.navbar-nav .nav-link {
+  color: #f4e1e1 !important; /* Cor inicial dos links */
+  font-weight: bolder;
+  transition: color 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Hover nos links */
+.navbar-nav .nav-link:hover {
+  color: #f4e1e1 !important; /* Cor ao passar o mouse */
+}
+
+/* Para o botão hamburguer (opcional) */
+.navbar-toggler-icon {
+  background-color: #f4e1e1; /* Cor do ícone do botão */
 }
